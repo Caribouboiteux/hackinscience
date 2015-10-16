@@ -1,2 +1,2 @@
-test = "['Hello World', 42]"   
-print (test)
+test = "['Hello World', 42]"
+print(test)
