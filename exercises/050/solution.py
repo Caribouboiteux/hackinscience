@@ -5,4 +5,3 @@ for i in range(1000):
     if int(i) % 5:
         a = a + i
 print(a)
-
