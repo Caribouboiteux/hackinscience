@@ -7,4 +7,3 @@ else:
     b = int(sys.argv[2])
     c = str(a + b)
     print(c)
-
