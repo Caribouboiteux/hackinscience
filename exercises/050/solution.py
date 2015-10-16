@@ -4,4 +4,4 @@ for i in range(1000):
         a = a + i
     if int(i) % 5 == 0:
         a = a + i
-    print(a)
+    print(int(a))
