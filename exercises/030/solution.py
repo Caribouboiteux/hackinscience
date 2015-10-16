@@ -1,2 +1,3 @@
-for i in range(1, 101):
-    print(i)
+for i in range(101):
+    if int(i) % 2 == 0:
+        print(a)
