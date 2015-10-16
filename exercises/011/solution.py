@@ -1,5 +1,2 @@
-a = "Hello World  "
-b = a * 100
-c = b.split("  ")
-for i in c:
-    print(i)
+for i in range(100):
+    print(Hello World)
