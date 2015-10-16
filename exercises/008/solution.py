@@ -1,3 +1,3 @@
 list = "Hello World !"
-for i in list: 
+for i in list:
     print(i)
