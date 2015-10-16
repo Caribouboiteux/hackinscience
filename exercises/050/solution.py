@@ -1,5 +1,5 @@
 a = 0
-for i in range(1000):
+for i in range(999):
     if int(i) % 3:
         a = a + i
     if int(i) % 5:
