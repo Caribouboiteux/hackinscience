@@ -1,6 +1,6 @@
 def sort_a_list(a):
     a.sort(reverse=True)
-
+    print(a)
 
 def sort_by_mark(a):
     a.sort(reverse=True, key=lambda colonne: colonne[0])
