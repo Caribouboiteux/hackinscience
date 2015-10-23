@@ -4,10 +4,10 @@ def sort_a_list(a):
 
 
 def sort_by_mark(a):
-    d = a.sort(reverse=True, key=lambda colonne: colonne[0])
+    d = sorted(a, reverse=True, key=lambda colonne: colonne[0])
     return(d)
 
 
 def sort_by_name(a):
-    d = a.sort(key=lambda colonne: colonne[1])
+    d = sorted(a, key=lambda colonne: colonne[1])
     return(d)
