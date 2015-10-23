@@ -1,19 +1,13 @@
 def sort_a_list(a):
-    sorted(a, reverse=True)
-    return(a)
+    b = sorted(a, reverse=True)
+    return(b)
 
 
 def sort_by_mark(a):
-    a.sort(reverse=True, key=lambda colonne: colonne[0])
-    b = str(a)
-    c = b.split("],")
-    d = "]\n".join(c)
+    d = a.sort(reverse=True, key=lambda colonne: colonne[0])
     return(d)
 
 
 def sort_by_name(a):
-    a.sort(key=lambda colonne: colonne[1])
-    b = str(a)
-    c = b.split("],")
-    d = "]\n".join(c)
+    d = a.sort(key=lambda colonne: colonne[1])
     return(d)
