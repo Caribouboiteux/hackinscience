@@ -1,6 +1,6 @@
 def sort_a_list(a):
-    a.sort(reverse=True)
-    print(a)
+    sorted(a, reverse=True)
+    return(a)
 
 
 def sort_by_mark(a):
@@ -8,7 +8,7 @@ def sort_by_mark(a):
     b = str(a)
     c = b.split("],")
     d = "]\n".join(c)
-    print(d)
+    return(d)
 
 
 def sort_by_name(a):
@@ -16,4 +16,4 @@ def sort_by_name(a):
     b = str(a)
     c = b.split("],")
     d = "]\n".join(c)
-    print(d)
+    return(d)
