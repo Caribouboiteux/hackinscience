@@ -1,3 +1,5 @@
+from __future__ import division, absolute_import, print_function, unicode_literals
+import six
 station = {
     'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET',
     'number': 31705,
@@ -5,5 +7,5 @@ station = {
     'name': 'CHAMPEAUX (BAGNOLET)',
     'longitude': 2.416170724425901
 }
-for key, value in station.items():
-    print key, value
+for k, v in six.iteritems(station):
+    print(k, v)
