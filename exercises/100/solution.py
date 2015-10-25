@@ -6,4 +6,4 @@ station = {
     'longitude': 2.416170724425901
 }
 for key, value in station.iteritems():
-    print key, value
+    print(key, value)
