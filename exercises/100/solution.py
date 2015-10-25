@@ -1,5 +1,5 @@
-from __future__ 
-import division, absolute_import, print_function, unicode_literals
+from __future__ import division
+from __future__ import absolute_import, print_function, unicode_literals
 import six
 station = {
     'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET',
