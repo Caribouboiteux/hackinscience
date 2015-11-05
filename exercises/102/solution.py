@@ -1,6 +1,7 @@
 velib = \
 [{
-        'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE) - 93170 BAGNOLET',
+        'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE)\
+        - 93170 BAGNOLET',
         'zip': '93170-',
         'number': 31705, 'latitude': 48.8645278209514, 'city': 'BAGNOLET',
         'name': 'CHAMPEAUX (BAGNOLET)-',
@@ -42,8 +43,7 @@ MAIL CHARLES DE GAULLE - 93500 PANTIN-',
         'city': 'PANTIN-',
         'name': 'DE GAULLE (PANTIN)-',
         'longitude': 2.412715733388685
-    }
-]
+    }]
 
 
 def check_my_city(city_name):
