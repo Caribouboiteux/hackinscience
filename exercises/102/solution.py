@@ -34,6 +34,8 @@ velib = \
         'longitude': 2.412715733388685
     }
 ]
+
+
 def check_my_city(city_name):
     a = 0
     sortie = {}
