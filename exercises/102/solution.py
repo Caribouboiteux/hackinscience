@@ -5,7 +5,8 @@ velib = \
 'name': 'CHAMPEAUX (BAGNOLET)-',
 'longitude': 2.416170724425901
     },
-{'address': "52 RUE D'ENGHIEN / ANGLE RUE DU FAUBOURG POISSONIERE - 75010 PARIS",
+{'address': "52 RUE D'ENGHIEN /\
+ANGLE RUE DU FAUBOURG POISSONIERE - 75010 PARIS",
         'zip': '75010',
         'number': 10042, 'latitude': 48.87242006305313, 'city': 'PARIS-',
         'name': 'ENGHIEN-',
