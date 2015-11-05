@@ -7,7 +7,6 @@ velib = \
         'name': 'CHAMPEAUX (BAGNOLET)-',
         'longitude': 2.416170724425901
     },
-
     {
         'address': "52 RUE D'ENGHIEN /\
 ANGLE RUE DU FAUBOURG POISSONIERE - 75010 PARIS",
@@ -16,7 +15,6 @@ ANGLE RUE DU FAUBOURG POISSONIERE - 75010 PARIS",
         'name': 'ENGHIEN-',
         'longitude': 2.348395236282807
     },
-
     {
         'address': '74 BOULEVARD DES BATIGNOLLES - 75008 PARIS-',
         'zip': '75008-',
@@ -24,7 +22,6 @@ ANGLE RUE DU FAUBOURG POISSONIERE - 75010 PARIS",
         'name': 'METRO ROME-',
         'longitude': 2.319860054774211
     },
-
     {
         'address': '37 RUE CASANOVA - 75001 PARIS-',
         'zip': '75001-',
@@ -33,7 +30,6 @@ ANGLE RUE DU FAUBOURG POISSONIERE - 75010 PARIS",
         'name': 'RUE DE LA PAIX-',
         'longitude': 2.330493511399174
     },
-
     {
         'address': '139 AVENUE JEAN LOLIVE /\
 MAIL CHARLES DE GAULLE - 93500 PANTIN-',
