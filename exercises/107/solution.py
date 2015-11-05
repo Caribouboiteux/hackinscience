@@ -13,4 +13,3 @@ def select_student(liste, note_minimum):
     sortie['Refused'] = refuse
     sortie['Accepted'] = accepte
     return sortie
-            
