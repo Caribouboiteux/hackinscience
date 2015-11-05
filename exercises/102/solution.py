@@ -5,7 +5,7 @@ velib = \
 'name': 'CHAMPEAUX (BAGNOLET)-',
 'longitude': 2.416170724425901
     },
-    {   'address': "52 RUE D'ENGHIEN / ANGLE RUE DU FAUBOURG POISSONIERE - 75010 PARIS",
+{'address': "52 RUE D'ENGHIEN / ANGLE RUE DU FAUBOURG POISSONIERE - 75010 PARIS",
         'zip': '75010',
         'number': 10042, 'latitude': 48.87242006305313, 'city': 'PARIS-',
         'name': 'ENGHIEN-',
@@ -25,7 +25,7 @@ velib = \
         'longitude': 2.330493511399174
     },
     {
-        'address': '139 AVENUE JEAN LOLIVE / MAIL CHARLES DE GAULLE - 93500 PANTIN-',
+'address': '139 AVENUE JEAN LOLIVE / MAIL CHARLES DE GAULLE - 93500 PANTIN-',
         'zip': '93500-',
         'number': 35014,
         'latitude': 48.893268664697416,
