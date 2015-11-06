@@ -1,5 +1,5 @@
 velib = [{
-        'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE)\
+    'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE)\
         - 93170 BAGNOLET',
         'zip': '93170-',
         'number': 31705, 'latitude': 48.8645278209514, 'city': 'BAGNOLET',
