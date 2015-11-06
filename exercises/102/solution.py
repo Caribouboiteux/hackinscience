@@ -33,7 +33,8 @@ MAIL CHARLES DE GAULLE - 93500 PANTIN-',
         'latitude': 48.893268664697416,
         'city': 'PANTIN-',
         'name': 'DE GAULLE (PANTIN)-',
-        'longitude': 2.412715733388685}]
+        'longitude': 2.412715733388685
+}]
 
 
 def check_my_city(city_name):
