@@ -7,8 +7,11 @@ def is_prime(n):
         return False
     else:
         for i in range(2, n):
+            print(i)
             s = n % i
+            print(s)
             if s == 0:
                 return False
             else:
-                return True
+                a = True 
+        print(a)
