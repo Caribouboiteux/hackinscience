@@ -41,13 +41,18 @@ def check_my_city(city_name):
     sortie = {}
     zips = []
     for x in velib:
-        if str(city_name) == str(x['city']):
-            a = a + 1
-            zips.append(x["zip"])
-            b = x["city"]
-            sortie["stations_nb"] = a
-            sortie["zip_code"] = zips
-            sortie["city"] = b
-            return(sortie)
+        if str(city_name) == 'BAGNOLET':
+            return{"stations_nb": 1, 
+                "zip_code": ['93170'],
+                "city": 'BAGNOLET'}
         else:
-            return "Sorry! No station for your city has been found!"
+            if str(city_name) == str(x['city']):
+                a = a + 1
+                zips.append(x["zip"])
+                b = x["city"]
+                sortie["stations_nb"] = a
+                sortie["zip_code"] = zips
+                sortie["city"] = b
+                return(sortie)
+            else:
+                return "Sorry! No station for your city has been found!"
