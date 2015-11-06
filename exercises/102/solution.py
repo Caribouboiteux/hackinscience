@@ -42,9 +42,9 @@ def check_my_city(city_name):
     zips = []
     for x in velib:
         if str(city_name) == 'BAGNOLET':
-            return{"stations_nb": 1, 
-                "zip_code": ['93170'],
-                "city": 'BAGNOLET'}
+            return{"stations_nb": 1,
+                   "zip_code": ['93170'],
+                   "city": 'BAGNOLET'}
         else:
             if str(city_name) == str(x['city']):
                 a = a + 1
