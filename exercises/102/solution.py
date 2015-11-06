@@ -12,8 +12,7 @@ velib = [{
         'number': 10042, 'latitude': 48.87242006305313, 'city': 'PARIS-',
         'name': 'ENGHIEN-',
         'longitude': 2.348395236282807},
-    {
-        'address': '74 BOULEVARD DES BATIGNOLLES - 75008 PARIS-',
+    {'address': '74 BOULEVARD DES BATIGNOLLES - 75008 PARIS-',
         'zip': '75008-',
         'number': 8020, 'latitude': 48.882148945631904, 'city': 'PARIS-',
         'name': 'METRO ROME-',
