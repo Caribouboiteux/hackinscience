@@ -13,5 +13,5 @@ def is_prime(n):
             if s == 0:
                 return False
             else:
-                a = True 
+                a = True
         print(a)
