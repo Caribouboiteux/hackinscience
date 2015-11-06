@@ -25,7 +25,7 @@ else:
         if str(sys.argv[2]) == "^":
             c = str(a ** b)
             print(c)
-        if str(sys.argv[2]) == 1:
+        if str(sys.argv[2]) == "1":
             print("input error")
     except:
         print("input error")
