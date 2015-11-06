@@ -46,8 +46,8 @@ def check_my_city(city_name):
             zips.append(x["zip"])
             b = x["city"]
             sortie["stations_nb"] = a
-            sortie["city"] = b
             sortie["zip_code"] = zips
+            sortie["city"] = b
             return(sortie)
         else:
             return "Sorry! No station for your city has been found!"
