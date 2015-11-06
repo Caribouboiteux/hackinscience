@@ -6,7 +6,7 @@ def is_prime(n):
     if n % 2 == 0:
         return False
     else:
-        for i in range(2, n):
+        for i in range(2, 50):
             print(i)
             s = n % i
             print(s)
