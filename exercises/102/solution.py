@@ -1,5 +1,4 @@
-velib = \
-[{
+velib = [{
         'address': 'RUE DES CHAMPEAUX (PRES DE LA GARE ROUTIERE)\
         - 93170 BAGNOLET',
         'zip': '93170-',
