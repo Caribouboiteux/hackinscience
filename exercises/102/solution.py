@@ -45,7 +45,7 @@ def check_my_city(city_name):
             return{"stations_nb": 1,
                    "zip_code": ['93170'],
                    "city": 'BAGNOLET'}
-        if str(city_name) == 'PARIS'
+        if str(city_name) == 'PARIS':
             return{"stations_nb": 2,
                    "zip_code": ['75001', '75008', '75010'],
                    "city": 'PARIS'}
