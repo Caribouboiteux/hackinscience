@@ -10,6 +10,6 @@ def is_prime(n):
             print(i)
             s = n % i
             print(s)
-            if s == 0:
+            if s == 0 and n != i:
                 return False
         return True
