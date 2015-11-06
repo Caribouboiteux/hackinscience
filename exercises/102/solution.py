@@ -41,7 +41,7 @@ def check_my_city(city_name):
     sortie = {}
     zips = []
     for x in velib:
-        if city_name in x:
+        if str(city_name) == str(x['city']):
             a = a + 1
             zips.append(x["zip"])
             b = x["city"]
