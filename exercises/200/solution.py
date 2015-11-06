@@ -1,11 +1,12 @@
 def is_prime(n):
+    if n == 2:
+        return True
     if n % 2 == 0:
-        return(False)
+        return False
     else:
-        a = n - 1
-        for i in range(1, a):
+        for i in range(2, n):
             s = n % i
             if s == 0:
-                return(False)
+                return False
             else:
-                return(True)
+                return True
