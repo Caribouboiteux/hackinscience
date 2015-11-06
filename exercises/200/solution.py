@@ -14,4 +14,4 @@ def is_prime(n):
                 return False
             else:
                 a = True
-        print(a == a)
+        return True
