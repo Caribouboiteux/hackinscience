@@ -1,5 +1,5 @@
 def is_alpha(chaine):
-    lettres = [abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ]
+    lettres = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     for i in chaine:
         if i in lettres:
             return True
