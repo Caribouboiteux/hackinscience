@@ -5,4 +5,4 @@ for i in range(0, 1000):
         print(i)
         a = a + int(i)
 b = int(a)
-return b
+print(int(b))
