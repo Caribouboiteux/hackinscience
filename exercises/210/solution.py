@@ -4,4 +4,4 @@ for i in range(0, 1000):
     if is_prime(i) is True:
         print(i)
         a = a + int(i)
-print(a)
+print(int(a))
