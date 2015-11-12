@@ -5,8 +5,8 @@ def draw_n_squares(n):
     d = "   |"
     e = a + (int(n) - 1) * b
     f = c + (int(n) - 1) * d
-    print(e)
+    print(str(e))
     u = int(n)
     for i in range(0, u):
-        print(f)
-        print(e)
+        print(str(f))
+        print(str(e))
