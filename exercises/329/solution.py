@@ -29,7 +29,6 @@ for i in a:
 for j in a:
     for k in range(0, 30):
         c = c * int(b[k])
-    print(c)
     if c > d:
         d = c
-print(c)
+print(int(d))
