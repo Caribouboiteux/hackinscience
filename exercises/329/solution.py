@@ -26,8 +26,9 @@ c = 1
 d = 0
 for i in a:
     b.append(int(i))
-for j in a:
-    for k in range(0, 30):
+for j in b:
+    c = 1
+    for k in range(0, 13):
         c = c * int(b[k])
     if c > d:
         d = c
