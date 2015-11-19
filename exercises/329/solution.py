@@ -21,7 +21,7 @@ a = "73167176531330624919225119674426574742355349194934\
 d = 0
 for j in range(0, len(a) - 13):
     c = 1
-    for k in range(0, 12):
+    for k in range(0, 13):
         e = j + k
         c = c * int(a[e])
     if c > d:
