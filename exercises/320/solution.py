@@ -1,7 +1,7 @@
 import requests
 import string
-r = requests.get('http://julien.palard.fr/x/words')
-text = r.text
+r = open('words')
+t = r.read()
 alphabet = string.ascii_lowercase
 tout = 0
 liste = {}
