@@ -1,7 +1,8 @@
 import requests
 import string
+import math
 r = open('words')
-t = r.read()
+text = r.read()
 alphabet = string.ascii_lowercase
 tout = 0
 liste = {}
@@ -12,7 +13,8 @@ for i in text:
         if i == j:
             tout = tout + 1
             liste[j] = int(liste[j]) + 1
-for k in liste:
-    liste[k] = (liste[k]) / tout
+for k in alphabet:
+    a = (liste[k]) / tout
+    liste[k] = a
 for bisou in liste:
     print(bisou + ":", liste[bisou])
