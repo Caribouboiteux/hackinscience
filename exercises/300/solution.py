@@ -1,4 +1,3 @@
-import requests
-r = requests.get('http://julien.palard.fr/x/words')
-t = r.text
+r = open('words.py')
+t = r.read()
 print(t, end="")
