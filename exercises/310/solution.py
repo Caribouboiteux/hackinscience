@@ -1,6 +1,5 @@
-import requests
-r = requests.get('http://julien.palard.fr/x/words')
-t = r.text
+r = open('words')
+t = r.read()
 a = 0
 for i in t:
     if i == "e":
