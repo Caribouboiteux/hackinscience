@@ -1,0 +1,20 @@
+import json
+a = open('velib.json')
+data = json.load(a)
+for i in data:
+    b = i["name"].split("- ")
+    c = b[1]
+    d = i["address"].split(" - ")
+    e = str(d[1]).split(" ")
+    f = e[1]
+    i["name"] = c
+    i["address"] = d[0]
+    i["city"] = f
+    i["zip_code"] = e[0]
+print(data)
+
+#def load_json(chemin):
+#    json_data = open(chemin)
+#    data = json.load(json_data)
+#    return data
+#    json_data.close()
