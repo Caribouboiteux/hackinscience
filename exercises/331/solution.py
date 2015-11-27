@@ -1,6 +1,7 @@
 import json
 a = open('velib.json')
 data = json.load(a)
+sortie = []
 for i in data:
     nom = i["name"].split("- ")
     nom = nom[1]
@@ -39,5 +40,5 @@ for station in data:
 for i in data:
     address = i["address"].split(" - ")
     i["address"] = address[0]
-for i in data:
-    print(i)
+obFichier = open('solution.json', "w")
+json.dump(data, obFichier)
