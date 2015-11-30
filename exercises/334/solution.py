@@ -16,4 +16,5 @@ def locate(l, p):
         if moi_station < a:
             a = moi_station
             station = i
+            i["distance"] = a
     return station
