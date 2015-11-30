@@ -17,4 +17,3 @@ def locate(l, p):
             a = moi_station
             station = i
     return station
-
