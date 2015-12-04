@@ -1,5 +1,5 @@
 def encode(n):
-    if type(n) == type(b'test'):
+    if isinstance(n, bytes) == True:
         return n
     else:
         b = n.encode('UTF-8')
