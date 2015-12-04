@@ -1,6 +1,9 @@
 def encode(n):
-    b = n.encode('UTF-8')
-    return b
+    if type(n) == type(b'test'):
+        return n
+    else:
+        b = n.encode('UTF-8')
+        return b
 
 
 def decode(n):
