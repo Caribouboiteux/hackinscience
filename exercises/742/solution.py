@@ -3,7 +3,7 @@
 from pngcanvas import PNGCanvas
 import math
 
-HEIGHT = 500
+HEIGHT = 10
 WIDTH = int(HEIGHT * (16 / 9))
 
 canvas = PNGCanvas(WIDTH, HEIGHT,
