@@ -3,7 +3,7 @@ def filtered(items, fonction_conscise):
     for i in items:
         if fonction_conscise(i) is True:
             sortie.append(str(i))
-    return sortie
+    return ", ".join(sortie)
 
 
 if __name__ == '__main__':
