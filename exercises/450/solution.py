@@ -5,7 +5,6 @@ def forward(s, key):
         if ascii > 64:
             if ascii < 91:
                 new_ascii = ascii
-                print(new_ascii)
                 for k in range(0, key):
                     new_ascii = new_ascii + 1
                     if new_ascii > 90:
@@ -22,7 +21,8 @@ def forward(s, key):
                     sortie.append(chr(int(new_ascii)))
         else:
             sortie.append(i)
-    return "".join(sortie)
+    a = "".join(sortie)
+    return a
 
 
 def backward(s, key):
@@ -52,4 +52,4 @@ def backward(s, key):
 
 
 def caesar_cypher(s, key, method):
-    method(s, key)
+    return method(s, key)
