@@ -1,9 +1,6 @@
 def filtered(items, fonction_conscise):
-    sortie = []
-    for i in items:
-        if fonction_conscise(i) is True:
-            sortie.append(str(i))
-    return ", ".join(sortie)
+    even = fonction_conscise
+    return even(items)
 
 
 if __name__ == '__main__':
