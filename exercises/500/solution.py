@@ -25,6 +25,7 @@ b = 0
 #nombre = {}
 tableau = []
 suite2 = suite.split("  ")
+print(51267216)
 
 for lignes in suite2:
     b = 0
@@ -98,25 +99,24 @@ for j in range(1, 21):
             x = c
     #diagonale_droite_a_gauche
     a_multiplier = []
-    for i in range(0, 20 * 20 - 3 * 20):
-        s = tableau[i][1]
-        y = tableau[i][2]
-        a_multiplier.append(tableau[i][0])
-        for m in range(0, 4):
-            s = s - 1
-            y = y - 1
-            for j in tableau:
-                if j[2] > 3:
-                    if j[1] == s:
-                        a_multiplier.append(j[0])
-                    if j[2] == y:
-                        a_multiplier.append(j[0])
-    compteur = 0
-    for i in range(0, 16):
-        c = 1
-        for k in range(0, 4):
-            e = i + k
-            c = c * int(a_multiplier[e])
-        if c > x:
-            x = c
-print(x)
+#    for i in range(0, 20 * 20 - 3 * 20):
+#        s = tableau[i][1]
+#        y = tableau[i][2]
+#        a_multiplier.append(tableau[i][0])
+#        for m in range(0, 4):
+#            s = s - 1
+#            y = y - 1
+#            for j in tableau:
+#                if j[2] > 3:
+#                    if j[1] == s:
+#                        a_multiplier.append(j[0])
+#                    if j[2] == y:
+#                        a_multiplier.append(j[0])
+#    compteur = 0
+#    for i in range(0, 16):
+#        c = 1
+#        for k in range(0, 4):
+#            e = i + k
+#            c = c * int(a_multiplier[e])
+#        if c > x:
+#            x = c
